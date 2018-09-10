@@ -1,3 +1,5 @@
+[Googem](https://i.imgur.com/DLaMfWS.png)
+
 # Googem
 
 Use stackoverflow.com with commandline interface. No browsers, no graphic interface, only commandline. 
@@ -14,8 +16,10 @@ Install it yourself as:
 ## Usage
 - Basic command
 
+```bash
+$ googem -k "how to publish my ruby gem"
+```
 
-    $ googem -k "how to publish my ruby gem"
 
 - Command and options
 
@@ -27,6 +31,8 @@ Usage: googem [options]
     -s, --size [size]                Size per page # option
     -h, --help                       Show list commands
 ```
+
+[Demo commandline](https://i.imgur.com/iVlawLz.png)
 
 ## Development
 
