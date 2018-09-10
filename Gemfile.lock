@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    googem (1.0.2)
+    googem (1.2.1)
       oj
       tty-pager
       tty-prompt

@@ -16,7 +16,7 @@ module Googem
       spinner = TTY::Spinner.new("[:spinner] Searching ...", format: :pulse_2)
       prompt = TTY::Prompt.new
       spinner.auto_spin
-      response = Unirest.get "#{BASE_URL}&title=#{keywords}&page=#{options[:page]}&pagesize=#{options[:size]}", headers:{ "Accept" => "application/json" }
+      response = Unirest.get "#{BASE_URL}&q=#{keywords}&page=#{options[:page]}&pagesize=#{options[:size]}", headers:{ "Accept" => "application/json" }
       document =  JSON.parse response.raw_body
       content = {}
       document["items"].each_with_index do |i, index|
