@@ -1,28 +1,32 @@
 # Googem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/googem`. To experiment with that code, run `bin/console` for an interactive prompt.
+Use stackoverflow.com with commandline interface. No browsers, no graphic interface, only commandline. 
+If you want to use a computer professionally, this is the ruby gem for you. LIKE A HACKER.
 
-TODO: Delete this and the text above, and describe your gem
+Rubygems: [Available on the Rubygems.org](https://rubygems.org/gems/googem)
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'googem'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install googem
 
 ## Usage
+- Basic command
 
-TODO: Write usage instructions here
+
+    $ googem -k "how to publish my ruby gem"
+
+- Command and options
+
+```bash
+Usage: googem [options]
+    -v, --version                    Show googem version
+    -k, --keyword KEYWORDS           Search by keyword "keywords", eg: $ googem -k "ruby"
+    -p, --page [page]                Page number # option
+    -s, --size [size]                Size per page # option
+    -h, --help                       Show list commands
+```
 
 ## Development
 
@@ -40,4 +44,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Googem project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/googem/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Googem project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/ohmygodvt95/googem/blob/master/CODE_OF_CONDUCT.md).
