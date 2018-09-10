@@ -1,4 +1,4 @@
-[Googem](https://i.imgur.com/DLaMfWS.png)
+![Googem](https://i.imgur.com/OccWajD.jpg)
 
 # Googem
 
@@ -32,7 +32,7 @@ Usage: googem [options]
     -h, --help                       Show list commands
 ```
 
-[Demo commandline](https://i.imgur.com/iVlawLz.png)
+![Demo commandline](https://i.imgur.com/iVlawLz.png)
 
 ## Development
 
