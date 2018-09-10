@@ -14,6 +14,12 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/ohmygodvt95/googem.git"
   spec.license       = "MIT"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
+
+  spec.add_dependency 'unirest'
+  spec.add_dependency 'oj'
+  spec.add_dependency 'tty-spinner'
+  spec.add_dependency 'tty-pager'
+  spec.add_dependency 'tty-prompt'
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)

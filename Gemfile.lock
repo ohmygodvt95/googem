@@ -1,7 +1,12 @@
 PATH
   remote: .
   specs:
-    googem (0.1.0)
+    googem (1.0.2)
+      oj
+      tty-pager
+      tty-prompt
+      tty-spinner
+      unirest
 
 GEM
   remote: https://rubygems.org/

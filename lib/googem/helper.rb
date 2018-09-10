@@ -45,6 +45,7 @@ module Googem
       else
         document["items"][0]["answers"].each_with_index do |i, index|
           content << "▷　#{index+ 1} ◇　by　#{i["owner"]["display_name"]}  ◇　#{minutes_in_words Time.at(i["creation_date"])}\n"
+          content << "▷　#{i["link"]}\n"
           content << "----------------------------------------------------------\n"
           content << CGI.unescapeHTML(i["body_markdown"]) + "\n----------------------------------------------------------\n"
         end

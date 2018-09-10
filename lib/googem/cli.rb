@@ -12,6 +12,7 @@ module Googem
         opts.on("-v","--version", "Show googem version") do
           require "googem/version"
           out << "Googem v#{Googem::VERSION}\n"
+          exit
         end
 
         opts.on("-k","--keyword KEYWORDS", String, "Search by keyword \"keywords\", eg: $ googem -k \"ruby\"") do |keywords|
