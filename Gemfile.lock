@@ -1,0 +1,73 @@
+PATH
+  remote: .
+  specs:
+    googem (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    equatable (0.5.0)
+    hitimes (1.3.0)
+    json (1.8.6)
+    mime-types (1.25.1)
+    minitest (5.11.3)
+    necromancer (0.4.0)
+    oj (3.6.7)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    rake (10.5.0)
+    rest-client (1.6.9)
+      mime-types (~> 1.16)
+    strings (0.1.3)
+      strings-ansi (~> 0.1.0)
+      unicode-display_width (~> 1.4.0)
+      unicode_utils (~> 1.4.0)
+    strings-ansi (0.1.0)
+    timers (4.1.2)
+      hitimes
+    tty-color (0.4.3)
+    tty-cursor (0.6.0)
+    tty-pager (0.11.0)
+      strings (~> 0.1.0)
+      tty-screen (~> 0.6.4)
+      tty-which (~> 0.3.0)
+    tty-prompt (0.17.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      timers (~> 4.0)
+      tty-cursor (~> 0.6.0)
+      tty-reader (~> 0.4.0)
+    tty-reader (0.4.0)
+      tty-cursor (~> 0.6.0)
+      tty-screen (~> 0.6.4)
+      wisper (~> 2.0.0)
+    tty-screen (0.6.5)
+    tty-spinner (0.8.0)
+      tty-cursor (>= 0.5.0)
+    tty-which (0.3.0)
+    unicode-display_width (1.4.0)
+    unicode_utils (1.4.0)
+    unirest (1.1.2)
+      addressable (~> 2.3.5)
+      json (~> 1.8.1)
+      rest-client (~> 1.6.7)
+    wisper (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  googem!
+  minitest (~> 5.0)
+  oj
+  rake (~> 10.0)
+  tty-pager
+  tty-prompt
+  tty-spinner
+  unirest
+
+BUNDLED WITH
+   1.16.4
