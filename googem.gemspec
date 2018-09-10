@@ -13,11 +13,11 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Use stackoverflow.com with commandline interface. No browsers, no interface, only terminal. LIKE a BOSS}
   spec.homepage      = "https://github.com/ohmygodvt95/googem.git"
   spec.license       = "MIT"
-
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "http://rubygems.org"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
