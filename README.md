@@ -7,9 +7,18 @@ If you want to use a computer professionally, this is the ruby gem for you. LIKE
 
 Rubygems: [Available on the Rubygems.org](https://rubygems.org/gems/googem)
 
+## System required
+
+- Ruby 2.x
+
 ## Installation
 
-Install it yourself as:
+Ruby environment by RVM
+
+    $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+    $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+Install ***Googem*** yourself as:
 
     $ gem install googem
 
@@ -21,7 +30,7 @@ $ googem -k "how to publish my ruby gem"
 ```
 
 
-- Command and options
+- Command and options `$ googem -k "text" -p 1 -s 10`
 
 ```bash
 Usage: googem [options]
